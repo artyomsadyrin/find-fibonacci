@@ -14,16 +14,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var fibonachiTable: UITableView!
     
     @IBOutlet weak var fiboSearchBar: UISearchBar!
-    var numbers = [Int]()
+    
     var searchActive: Bool = false
     var filteredFibo = [String]()
+    var numbers = [Int]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         fibonachiTable.dataSource = self
         fibonachiTable.delegate = self
         fiboSearchBar.delegate = self
-        numbers = Array(1...10)
+        numbers = createFiboArray(50)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -33,17 +34,31 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cellIdentifier = "FibonachiTableViewCell"
-        
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? FibonachiTableViewCell  else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? FibonachiTableViewCell else {
             fatalError("The dequeued cell is not an instance of ListTableViewCell.")
         }
-        
         let number = numbers[indexPath.row]
-        
         cell.resultLabel.text = String(number)
-        
         return cell
         
+    }
+
+    func getFibonachi(_ n: Int) -> Int {
+        var num1 = 0
+        var num2 = 1
+        for _ in 1..<n {
+            num1 += num2
+            num2 = num1 - num2
+        }
+        return num1
+    }
+    
+    func createFiboArray(_ index: Int) -> [Int] {
+        var temp = [Int]()
+        for i in 0..<index {
+            temp.append(getFibonachi(i + 1))
+        }
+        return temp
     }
     
 }
