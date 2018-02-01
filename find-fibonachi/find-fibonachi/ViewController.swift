@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import BigInt
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
