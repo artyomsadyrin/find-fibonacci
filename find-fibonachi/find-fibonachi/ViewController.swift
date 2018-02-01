@@ -25,10 +25,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         fibonachiTable.delegate = self
         fiboSearchBar.delegate = self
         numbers = createFiboArray(50)
+        filteredFibo = numbers.map( { String($0) } )
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return numbers.count
+        return filteredFibo.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -37,10 +38,36 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? FibonachiTableViewCell else {
             fatalError("The dequeued cell is not an instance of ListTableViewCell.")
         }
-        let number = numbers[indexPath.row]
-        cell.resultLabel.text = String(number)
+        let number = filteredFibo[indexPath.row]
+        cell.resultLabel.text = number
         return cell
         
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
+        guard !searchText.isEmpty else {
+            filteredFibo = numbers.map( { String($0) } )
+            fibonachiTable.reloadData()
+            return
+        }
+        filteredFibo = numbers.map( { String($0) } ).filter({ (number) -> Bool in
+            return number.contains(searchText)
+        })
+        
+        fibonachiTable.reloadData()
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+        
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.text = nil
+        // Hide the cancel button
+        //searchBar.showsCancelButton = false
+        searchBar.endEditing(true)
+        searchBar.resignFirstResponder()
     }
 
     func getFibonachi(_ n: Int) -> Int {
@@ -60,5 +87,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         return temp
     }
+    
+    
     
 }
