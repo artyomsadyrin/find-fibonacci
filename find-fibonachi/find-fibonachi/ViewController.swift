@@ -45,11 +45,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
     }
     
+    func clear() {
+        
+        filteredFibo = numbers.map( { String($0) } )
+        fibonachiTable.reloadData()
+        
+    }
+    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
         guard !searchText.isEmpty else {
-            filteredFibo = numbers.map( { String($0) } )
-            fibonachiTable.reloadData()
+            clear()
             return
         }
         filteredFibo = numbers.map( { String($0) } ).filter({ (number) -> Bool in
@@ -64,14 +70,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        
         searchBar.text = nil
-        // Hide the cancel button
-        //searchBar.showsCancelButton = false
         searchBar.endEditing(true)
         searchBar.resignFirstResponder()
+        clear()
+        
     }
 
     func getFibonachi(_ n: Int) -> Int {
+        
         var num1 = 0
         var num2 = 1
         for _ in 1..<n {
@@ -79,16 +87,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             num2 = num1 - num2
         }
         return num1
+        
     }
     
     func createFiboArray(_ index: Int) -> [Int] {
+        
         var temp = [Int]()
         for i in 0..<index {
             temp.append(getFibonachi(i + 1))
         }
         return temp
+        
     }
-    
-    
     
 }
