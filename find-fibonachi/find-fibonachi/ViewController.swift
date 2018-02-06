@@ -43,14 +43,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
-    func clear() {
+    func refreshFibonachiTable() {
         filteredFibo = numbers.map( { String($0) } )
         fibonachiTable.reloadData()
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         guard !searchText.isEmpty else {
-            clear()
+            refreshFibonachiTable()
             return
         }
         let positionOfNumber = Int(searchText)
@@ -68,7 +68,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         searchBar.text = nil
         searchBar.endEditing(true)
         searchBar.resignFirstResponder()
-        clear()
+        refreshFibonachiTable()
     }
     
     func getFibonachi(_ n: Int) -> BigInt {
