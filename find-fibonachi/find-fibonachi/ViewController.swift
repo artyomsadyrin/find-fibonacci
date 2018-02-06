@@ -18,14 +18,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var searchActive: Bool = false
     var filteredFibo = [String]()
-    var numbers = [Int]()
+    var numbers = [BigInt]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         fibonachiTable.dataSource = self
         fibonachiTable.delegate = self
         fiboSearchBar.delegate = self
-        numbers = createFiboArray(50)
+        numbers = createFiboArray(100)
         filteredFibo = numbers.map( { String($0) } )
     }
     
@@ -34,7 +34,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cellIdentifier = "FibonachiTableViewCell"
         guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? FibonachiTableViewCell else {
             fatalError("The dequeued cell is not an instance of ListTableViewCell.")
@@ -42,25 +41,20 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let number = filteredFibo[indexPath.row]
         cell.resultLabel.text = number
         return cell
-        
     }
     
     func clear() {
-        
         filteredFibo = numbers.map( { String($0) } )
         fibonachiTable.reloadData()
-        
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        
         guard !searchText.isEmpty else {
             clear()
             return
         }
-        filteredFibo = numbers.map( { String($0) } ).filter({ (number) -> Bool in
-            return number.contains(searchText)
-        })
+        let positionOfNumber = Int(searchText)
+        filteredFibo = [String(getFibonachi(positionOfNumber!))]
         
         fibonachiTable.reloadData()
     }
@@ -70,34 +64,28 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        
         searchBar.text = nil
         searchBar.endEditing(true)
         searchBar.resignFirstResponder()
         clear()
-        
     }
-
-    func getFibonachi(_ n: Int) -> Int {
-        
-        var num1 = 0
-        var num2 = 1
+    
+    func getFibonachi(_ n: Int) -> BigInt {
+        var num1: BigInt = 0
+        var num2: BigInt = 1
         for _ in 1..<n {
             num1 += num2
             num2 = num1 - num2
         }
         return num1
-        
     }
     
-    func createFiboArray(_ index: Int) -> [Int] {
-        
-        var temp = [Int]()
+    func createFiboArray(_ index: Int) -> [BigInt] {
+        var temp = [BigInt]()
         for i in 0..<index {
             temp.append(getFibonachi(i + 1))
         }
         return temp
-        
     }
     
 }

@@ -6,6 +6,6 @@ target 'find-fibonachi' do
   use_frameworks!
 
   # Pods for find-fibonachi
-  pod 'BigInt'
+  pod 'BigInt', '~> 3.0'
 
 end
