@@ -54,8 +54,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             return
         }
         let positionOfNumber = Int(searchText)
-        filteredFibo = [String(getFibonachi(positionOfNumber!))]
-        
+        if let positionOfNumber = positionOfNumber {
+            filteredFibo = [String(getFibonachi(positionOfNumber))]
+        }
         fibonachiTable.reloadData()
     }
     
