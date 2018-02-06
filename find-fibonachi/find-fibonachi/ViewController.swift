@@ -13,10 +13,8 @@ import BigInt
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
     @IBOutlet weak var fibonachiTable: UITableView!
-    
     @IBOutlet weak var fiboSearchBar: UISearchBar!
     
-    var searchActive: Bool = false
     var filteredFibo = [String]()
     var numbers = [BigInt]()
     
