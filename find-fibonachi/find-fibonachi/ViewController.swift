@@ -91,7 +91,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func getFibonachiNumber(_ n: Int) -> String {
         var num1: BigInt = 0
         var num2: BigInt = 1
-        for _ in 1..<n {
+        for _ in 0..<n {
             num1 += num2
             num2 = num1 - num2
         }
