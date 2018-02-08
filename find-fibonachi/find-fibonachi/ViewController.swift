@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var fiboSearchBar: UISearchBar!
     
     var filteredFibonachi = [String]()
-    var numbers = [BigInt]()
+    var numbers = [String]()
     var N = 20
     
     override func viewDidLoad() {
@@ -88,18 +88,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         refreshFibonachiTable()
     }
     
-    func getFibonachiNumber(_ n: Int) -> BigInt {
+    func getFibonachiNumber(_ n: Int) -> String {
         var num1: BigInt = 0
         var num2: BigInt = 1
         for _ in 1..<n {
             num1 += num2
             num2 = num1 - num2
         }
-        return num1
+        let result = "Fib \(n): \(num1)"
+        return result
     }
     
-    func createFibonachiArray(_ index: Int) -> [BigInt] {
-        var temp = [BigInt]()
+    func createFibonachiArray(_ index: Int) -> [String] {
+        var temp = [String]()
         for i in 0..<index {
             temp.append(getFibonachiNumber(i + 1))
         }
