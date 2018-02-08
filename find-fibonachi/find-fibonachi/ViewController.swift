@@ -52,9 +52,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             refreshFibonachiTable()
             return
         }
-        let positionOfNumber = Int(searchText)
-        if let positionOfNumber = positionOfNumber {
-            filteredFibonachi = [String(getFibonachiNumber(positionOfNumber))]
+        if let positionOfNumber = Int(searchText) {
+            if positionOfNumber > 0 {
+                filteredFibonachi = [String(getFibonachiNumber(positionOfNumber))]
+            }
+            else {
+                filteredFibonachi = [""]
+            }
+        }
+        else {
+            filteredFibonachi = [""]
         }
         fibonachiTable.reloadData()
     }
