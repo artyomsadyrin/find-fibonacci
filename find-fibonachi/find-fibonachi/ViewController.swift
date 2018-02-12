@@ -24,8 +24,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         fibonachiTable.dataSource = self
         fibonachiTable.delegate = self
         fiboSearchBar.delegate = self
-        numbers = createFibonachiArray(N)
-        filteredFibonachi = numbers.map( { String($0) } )
+        numbers = FibonachiCalculation.createFibonachiArray(N)
+        filteredFibonachi = numbers
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -43,7 +43,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func refreshFibonachiTable() {
-        filteredFibonachi = numbers.map( { String($0) } )
+        filteredFibonachi = numbers
         fibonachiTable.reloadData()
     }
     
@@ -54,7 +54,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         if let positionOfNumber = Int(searchText) {
             if positionOfNumber > 0 {
-                filteredFibonachi = [String(getFibonachiNumber(positionOfNumber))]
+               
+                    self.filteredFibonachi = [FibonachiCalculation.getFibonachiNumber(positionOfNumber)]
+                
+                
+                
             }
             else {
                 filteredFibonachi = [""]
@@ -70,7 +74,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let lastItemPosition = numbers.count - 1
         if indexPath.row == lastItemPosition {
             for index in (lastItemPosition + 1)...(lastItemPosition + 21) {
-                let newFibonachiNumber = getFibonachiNumber(index)
+                let newFibonachiNumber = FibonachiCalculation.getFibonachiNumber(index)
                 numbers.append(newFibonachiNumber)
             }
             refreshFibonachiTable()
@@ -86,25 +90,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         searchBar.endEditing(true)
         searchBar.resignFirstResponder()
         refreshFibonachiTable()
-    }
-    
-    func getFibonachiNumber(_ n: Int) -> String {
-        var num1: BigInt = 0
-        var num2: BigInt = 1
-        for _ in 0..<n {
-            num1 += num2
-            num2 = num1 - num2
-        }
-        let result = "Fib \(n): \(num1)"
-        return result
-    }
-    
-    func createFibonachiArray(_ index: Int) -> [String] {
-        var temp = [String]()
-        for i in 0..<index {
-            temp.append(getFibonachiNumber(i + 1))
-        }
-        return temp
     }
     
     
