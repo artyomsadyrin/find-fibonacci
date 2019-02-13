@@ -15,16 +15,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var fibonachiTable: UITableView!
     @IBOutlet weak var fiboSearchBar: UISearchBar!
     
-    var filteredFibonachi = [String]()
-    var numbers = [String]()
-    var N = 20
+    private var filteredFibonachi = [String]()
+    private var numbers = [String]()
+    private var N = 20
+    private var fibonachiCalculation = FibonachiCalculation()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         fibonachiTable.dataSource = self
         fibonachiTable.delegate = self
         fiboSearchBar.delegate = self
-        numbers = FibonachiCalculation.createFibonachiArray(N)
+        numbers = fibonachiCalculation.createFibonachiArray(N)
         filteredFibonachi = numbers
     }
     
@@ -54,11 +55,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         if let positionOfNumber = Int(searchText) {
             if positionOfNumber > 0 {
-               
-                    self.filteredFibonachi = [FibonachiCalculation.getFibonachiNumber(positionOfNumber)]
                 
-                
-                
+                self.filteredFibonachi = [fibonachiCalculation.getFibonachiNumber(positionOfNumber)]
             }
             else {
                 filteredFibonachi = [""]
@@ -74,7 +72,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let lastItemPosition = numbers.count - 1
         if indexPath.row == lastItemPosition {
             for index in (lastItemPosition + 1)...(lastItemPosition + 21) {
-                let newFibonachiNumber = FibonachiCalculation.getFibonachiNumber(index)
+                let newFibonachiNumber = fibonachiCalculation.getFibonachiNumber(index)
                 numbers.append(newFibonachiNumber)
             }
             refreshFibonachiTable()

@@ -11,23 +11,25 @@ import BigInt
 
 class FibonachiCalculation {
     
+    private var num1: BigInt = 0
+    private var num2: BigInt = 1
     
-    static func getFibonachiNumber(_ n: Int) -> String {
+    func getFibonachiNumber(_ n: Int) -> String {
+        var result = String()
         
-            var result = String()
-            var num1: BigInt = 0
-            var num2: BigInt = 1
+        //DispatchQueue.global(qos: .userInitiated).async {
             for _ in 0..<n {
                 num1 += num2
                 num2 = num1 - num2
             }
-            result = "Fib \(n): \(num1)"
+        //}
+        result = "Fib \(n): \(num1)"
         
         return result
     }
     
     
-    static func createFibonachiArray(_ index: Int) -> [String] {
+    func createFibonachiArray(_ index: Int) -> [String] {
         var temp = [String]()
         for i in 1...index {
             temp.append(getFibonachiNumber(i))
