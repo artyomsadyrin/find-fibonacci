@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet weak var fibonachiTable: UITableView!
     @IBOutlet weak var fiboSearchBar: UISearchBar!
-    
+    @IBOutlet weak var calculationActivityIndicator: UIActivityIndicatorView!
     private var filteredFibonachi = [String]()
     private var numbers = [String]()
     private var N = 19
@@ -55,8 +55,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         if let positionOfNumber = Int(searchText) {
             if positionOfNumber > 0 {
-                
-                self.filteredFibonachi = [fibonachiCalculation.getFibonachiNumber(positionOfNumber)]
+                //calculationActivityIndicator.startAnimating()
+                filteredFibonachi = [fibonachiCalculation.getFibonachiNumber(positionOfNumber)]
             }
             else {
                 filteredFibonachi = [""]
@@ -65,7 +65,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         else {
             filteredFibonachi = [""]
         }
+        
         fibonachiTable.reloadData()
+        //calculationActivityIndicator.stopAnimating()
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {

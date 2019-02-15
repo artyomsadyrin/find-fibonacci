@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -55,17 +54,23 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="IB4-nv-NGs">
+                                <rect key="frame" x="150" y="274" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="aiy-bs-E0k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Hdn-la-Y4A"/>
+                            <constraint firstItem="IB4-nv-NGs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Hf8-MT-y3r"/>
                             <constraint firstItem="aiy-bs-E0k" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dco-PP-cui"/>
+                            <constraint firstItem="IB4-nv-NGs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g5d-YL-5An"/>
                             <constraint firstItem="aiy-bs-E0k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="ocL-eL-OpC"/>
                             <constraint firstItem="aiy-bs-E0k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xrD-mO-jUr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="calculationActivityIndicator" destination="IB4-nv-NGs" id="MyH-9h-eBW"/>
                         <outlet property="fiboSearchBar" destination="aZ6-XG-aSK" id="wyC-0t-Ce4"/>
                         <outlet property="fibonachiTable" destination="aiy-bs-E0k" id="aRG-dV-f1z"/>
                         <outlet property="searchDisplayController" destination="Ymj-4g-av1" id="qUS-JQ-AGW"/>

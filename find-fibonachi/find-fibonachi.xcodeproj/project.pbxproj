@@ -74,16 +74,24 @@
 		7BF5DD0C2020CFC800DD9247 /* find-fibonachi */ = {
 			isa = PBXGroup;
 			children = (
-				7BF5DD0D2020CFC800DD9247 /* AppDelegate.swift */,
+				8E439CBB22169B4000E0BC62 /* Supporting files */,
 				7BF5DD112020CFC800DD9247 /* Main.storyboard */,
-				7BF5DD142020CFC800DD9247 /* Assets.xcassets */,
-				7BF5DD162020CFC800DD9247 /* LaunchScreen.storyboard */,
-				7BF5DD192020CFC800DD9247 /* Info.plist */,
 				7BF5DD1F2020D24500DD9247 /* ViewController.swift */,
 				7BF5DD212020D83D00DD9247 /* FibonachiTableViewCell.swift */,
 				7B4528BB2031E5230014865B /* FibonachiCalculation.swift */,
+				7BF5DD192020CFC800DD9247 /* Info.plist */,
 			);
 			path = "find-fibonachi";
+			sourceTree = "<group>";
+		};
+		8E439CBB22169B4000E0BC62 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				7BF5DD0D2020CFC800DD9247 /* AppDelegate.swift */,
+				7BF5DD142020CFC800DD9247 /* Assets.xcassets */,
+				7BF5DD162020CFC800DD9247 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 		A375ED746EB36A2BC3AE2CE8 /* Frameworks */ = {
