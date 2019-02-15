@@ -17,8 +17,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     private var filteredFibonachi = [String]()
     private var numbers = [String]()
-    private var N = 20
-    private var fibonachiCalculation = FibonachiCalculation()
+    private var N = 19
+    private let fibonachiCalculation = FibonachiCalculation()
     
     override func viewDidLoad() {
         super.viewDidLoad()

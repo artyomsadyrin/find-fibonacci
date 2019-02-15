@@ -15,12 +15,14 @@ class FibonachiCalculation {
     private var num2: BigInt = 1
     
     func getFibonachiNumber(_ n: Int) -> String {
+        num1 = 0
+        num2 = 1
         var result = String()
         
         //DispatchQueue.global(qos: .userInitiated).async {
             for _ in 0..<n {
-                num1 += num2
-                num2 = num1 - num2
+                self.num1 += self.num2
+                self.num2 = self.num1 - self.num2
             }
         //}
         result = "Fib \(n): \(num1)"
@@ -31,7 +33,7 @@ class FibonachiCalculation {
     
     func createFibonachiArray(_ index: Int) -> [String] {
         var temp = [String]()
-        for i in 1...index {
+        for i in 0..<index {
             temp.append(getFibonachiNumber(i))
         }
         return temp
