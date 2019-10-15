@@ -24,7 +24,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         fibonachiTable.dataSource = self
         fibonachiTable.delegate = self
         fiboSearchBar.delegate = self
-        numbers = FibonachiCalculation.createFibonachiArray(N)
+        numbers = FibonachiCalculation.createFibonachiArray(firstIndex: 0, lastIndex: 19)
         filteredFibonachi = numbers
     }
     
@@ -54,8 +54,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         if let positionOfNumber = Int(searchText) {
             if positionOfNumber > 0 {
-                
-                self.filteredFibonachi = [FibonachiCalculation.getFibonachiNumber(positionOfNumber)]
+                filteredFibonachi = [FibonachiCalculation.getFibonachiNumber(positionOfNumber)]
             }
             else {
                 filteredFibonachi = [""]
@@ -64,16 +63,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         else {
             filteredFibonachi = [""]
         }
+        
         fibonachiTable.reloadData()
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let lastItemPosition = numbers.count - 1
         if indexPath.row == lastItemPosition {
-            for index in (lastItemPosition + 1)...(lastItemPosition + 21) {
-                let newFibonachiNumber = FibonachiCalculation.getFibonachiNumber(index)
-                numbers.append(newFibonachiNumber)
-            }
+            numbers += FibonachiCalculation.createFibonachiArray(firstIndex: lastItemPosition + 1, lastIndex: lastItemPosition + 21)
             refreshFibonachiTable()
         }
     }

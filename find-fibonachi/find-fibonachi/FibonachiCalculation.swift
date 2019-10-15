@@ -11,12 +11,11 @@ import BigInt
 
 class FibonachiCalculation {
     
-    
-    
     static func getFibonachiNumber(_ n: Int) -> String {
         var num1: BigInt = 0
         var num2: BigInt = 1
         var result = String()
+        
         for _ in 0..<n {
             num1 += num2
             num2 = num1 - num2
@@ -27,9 +26,9 @@ class FibonachiCalculation {
         return result
     }
     
-    static func createFibonachiArray(_ index: Int) -> [String] {
+    static func createFibonachiArray(firstIndex: Int, lastIndex: Int) -> [String] {
         var temp = [String]()
-        for i in 0..<index {
+        for i in firstIndex...lastIndex {
             temp.append(getFibonachiNumber(i))
         }
         return temp
