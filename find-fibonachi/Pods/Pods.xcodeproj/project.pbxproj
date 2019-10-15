@@ -7,382 +7,280 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0569F6CD553CE537CE9A2602C9F97571 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0823C331AD7080575F45336393BF3BD8 /* Codable.swift */; };
-		073C6F0FF4FB519C3FCA6E6AB0954A30 /* Pods-find-fibonachi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBDDDD8FDF1225C9034490CAD13630E /* Pods-find-fibonachi-dummy.m */; };
-		09AC4E98C1E712FB660E3B42613C9772 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D4121B96D7CBC25908BC18225FD0F9 /* Division.swift */; };
-		135FEBA19D02E9B63E43159FFB985DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAE2EE30B6A693451F254E04E3BD104 /* Foundation.framework */; };
-		184E0351503C0AABFCA3FC554F00981B /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD39F4E1AF957546111239FAFD1E71E /* Comparable.swift */; };
-		1A72E5AF9ACCAAF577D34B51A5C46E80 /* SipHasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16855516ABB3A4DC5C970E02E8D8551C /* SipHasher.swift */; };
-		1C6E5C3AC12E19FE5C4D96C0074DC977 /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1307585A362659116906BAEE75FA587 /* Floating Point Conversion.swift */; };
-		1E95853E7C05F7A52717E661EF576FDA /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1A44D4C7A5AAA9AFB280D58512687 /* Subtraction.swift */; };
-		37059B6A52DE92A375A79BDA2916B957 /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BDB4C239796BA61EB219AE4EB8DA3 /* Square Root.swift */; };
-		3DA1E2DDFB31B4F60E8A32D5EF059417 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC1B5504B86394D0D72D138E8F7AB10 /* BigInt.swift */; };
-		3E54485FAC4FE6B309558F4447B7D2A7 /* Prime Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1274083FA90EA166A6FFC17B22FE25 /* Prime Test.swift */; };
-		40B2D8CF63F76512B6AB599D958B79C9 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B067CDB93C194870E578DA927B5E8A9 /* Addition.swift */; };
-		4F6AB91A2713CE83136FE6D08F7E01CD /* BigInt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B942B1B089187186825A4C53851370C9 /* BigInt-dummy.m */; };
-		569585A743D48C7CEE8A74BEBA8164C1 /* SipHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 006D6867C77E7C7AECB5F461488DBBE1 /* SipHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6797F663F4A2386E015E0D6456BF3797 /* Integer Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BEB0FB2FE33549F92AB9FC2D60A711 /* Integer Conversion.swift */; };
-		6A2DA2B1DAC29D3B5246215A907092AD /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F362641DD2ABECCEF3250963A2AC8 /* BigUInt.swift */; };
-		773F12D2A85CAB7AD2998B5D56716165 /* RandomUInt64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695E5521F1E7FD6F4A29BF3F04CB2A4A /* RandomUInt64.swift */; };
-		778E3D99050C62272C31CB7BDE81E05F /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958672FD6B9D95DFF796FF7360DD9075 /* Words and Bits.swift */; };
-		7BF7B5E46E8DBF32B8780FDB25620247 /* BigInt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A32E6B094FFDF1C1C663500181AD60C0 /* BigInt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CACDD00B9AE9FD476298AFDEBABE666 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192B564741A1B6494DFA4C956B1C1ECB /* Random.swift */; };
-		7D17202A290862DDDB5985DFF12C2204 /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EC2079B62E5851D86B09BEF666E6E5 /* String Conversion.swift */; };
-		889E890A7CDD926A028443D3C91D97D7 /* SipHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 567473F42A638E1C5F5D48A6186F63B6 /* SipHash-dummy.m */; };
-		8FDDCE11A80E76AAC60B7983F4CB20A3 /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303FC4535EC0AE1525B27D1C180AA1A8 /* Bitwise Ops.swift */; };
-		908DB48E8066721EACB8520E3687D5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAE2EE30B6A693451F254E04E3BD104 /* Foundation.framework */; };
-		9CA1F206A8437E3208E062B081B89A3C /* Primitive Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9901B7AE0792F47C15A2DB9016085 /* Primitive Types.swift */; };
-		9F882C0FB4AA408854857E533402C38F /* SipHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12E522D3201B06A126D6E75CA885DF4 /* SipHash.framework */; };
-		AA4B4BABA92F3AA05297E6648198B763 /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B02DED1E7CB00A1D378CCA9EF6E93A0 /* Shifts.swift */; };
-		ABBB31787F41EE1EC216C9737139BF0B /* SipHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F5DF79FAC3443B4E132A38204B486 /* SipHashable.swift */; };
-		B963546829EE9D61732A33C15B65E2C2 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322A4F42DE98C5D67C669B97633D7BC /* Multiplication.swift */; };
-		BA8738D271DCCDF455DA1E37E71F3AC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAE2EE30B6A693451F254E04E3BD104 /* Foundation.framework */; };
-		CB6C63980712EC1032E50E557D2FF691 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D959B042E8957DB710B2D0922EDF73 /* Hashable.swift */; };
-		CD8D7E2797FFE86D96868AAE2B0E004D /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D890DF372FAE7CFB6BA587E7EC124 /* GCD.swift */; };
-		D4AF7245A42AD5DFF183A7CCC0ACC7AF /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03A99C1D57314305DDC1D29D4B317F /* Data Conversion.swift */; };
-		DF4B43F9C90F35A58B925E4AB78B8E31 /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D954A06A56378DBFC223A140C5519 /* Strideable.swift */; };
-		F1D20863B92EE7E2986F6B3ED8E7381D /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4125AF46CA8D884AED421C2EB2B67B /* Exponentiation.swift */; };
-		FC2A52534A42BE01429F02D21DE19A57 /* Pods-find-fibonachi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7D7E1645330E003FC2F1EA4FA7C3C3 /* Pods-find-fibonachi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04C4B5D00750E2E4DFD4C4C7CC47283A /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E34699ED0C7AEAACF476DFE4A0D4A4 /* Bitwise Ops.swift */; };
+		0DF63A4C8FA0E53FB630F5B5429FF066 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DB3AEDD24E72B58CA5A2D46500E549 /* Exponentiation.swift */; };
+		16F71F20D31B7EEC6A60DB14135AB7A9 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C09FDA035937EF86305D3429E3361 /* Comparable.swift */; };
+		2228B8549F0F5445D1B2D346E12A20CD /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D976B3A5210F13B0D064271EDC894C1 /* Floating Point Conversion.swift */; };
+		39137B0D7B8FB5BF554BDE012BD85061 /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48A8592AC2FC4281BE13048F523E317 /* Data Conversion.swift */; };
+		3B9A2601095A9A72843D76CA44B37782 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E823CCF06F2616E93B7F748986FF02 /* Division.swift */; };
+		4362503059C68DFCDCB8621F4FD9E325 /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD7023763668B8E8F8B35B31ADE67E2 /* Square Root.swift */; };
+		441B42B593474F0D364D69743844DCFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4A8B21596204A43258F4EC69A7AEC66E /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714A4A181E3E81B16651E21BA05C945 /* Hashable.swift */; };
+		5E2574B7162EED00A81237F56CDC0BE4 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9BD3BD6D4549E70389EEC56C0A62D /* BigInt.swift */; };
+		6002AD14210CBE9C34EB848031CFD7E6 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6087ECF12527B640CC79F526B5799BAB /* Addition.swift */; };
+		7EECE9FCF5E07473E6D0FE80BFCB94C9 /* BigInt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A91E26C51CBFDA6B5D4304F9A5D656A /* BigInt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8599E23B2946C6F3F6DA3D63EC82C4A3 /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596A717B1900C9EC63DDD5F449068BEA /* Words and Bits.swift */; };
+		99F35D362CDAA3F01D59E05FAB02907D /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ACC583132B2436BFED7B300DBF011 /* Strideable.swift */; };
+		AC4E061C6A2D21210122B471D8BCC81E /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE6E107D1FA4D0DDD33F397A7B7C13 /* Random.swift */; };
+		AC7DBF3AD44B3E7644068E6F09F9EBF2 /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC318F0D3D8DC84A7BFEF7B298AB21B /* BigUInt.swift */; };
+		B1DB0D7FFF3CFF6346E12280B7EBFC27 /* Pods-find-fibonachi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E34E25893FE59EF967756E94C26F5A7 /* Pods-find-fibonachi-dummy.m */; };
+		BAA052C302D45F8DAB72606E997CAD69 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09068B73C32ABFB43A719CBB2DF851E6 /* Subtraction.swift */; };
+		BE29AFA73FEDAFA471F35F8AB1C3EA99 /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9604F822D19221D72FF5A59B4044960B /* Shifts.swift */; };
+		CBC4DC998BB536486EB2677E2C658DF8 /* Pods-find-fibonachi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D524B0E77F324CFB1D7BEAF6B4DCE83 /* Pods-find-fibonachi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48A4410A7C8CE6B6A0787A0F4999DE5 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EC644666F674C5A972AC4F60E91467 /* Multiplication.swift */; };
+		DA5830F8370A4DCA48A3EB4EA3DD2E9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DBE9A6D9CB82D8605F4C25B9426B1557 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06C11AF9712A9C9B487CD2DB267E808 /* Codable.swift */; };
+		E0B84D75D0F7E7EA2E905C05774CC361 /* Integer Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C604B8E7AD7C33CCD371C2723A43C7 /* Integer Conversion.swift */; };
+		E8ABBB87CFEBE721FC2D14B71A719BC2 /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9E46980D03291BEA4B846E987770E /* String Conversion.swift */; };
+		E93CF504980B3D653BB4530E7F98E9F6 /* Prime Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF0DC73D79BAF24D90308000CC4E1D /* Prime Test.swift */; };
+		F13925E2206A7647AC326ECFA6ED2856 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061A9E516D602774DE077E268A43F172 /* GCD.swift */; };
+		FFF7E224F5F3094210837EC8C7FE4960 /* BigInt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD2FA2A1041EEAECB8FE1537110E29 /* BigInt-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C9D4C91F10CF832666D975496DC1589 /* PBXContainerItemProxy */ = {
+		85601CE935627FAFD09275D0D1363BBF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1AF0AF2A6612DECD39D84C47260295D7;
-			remoteInfo = SipHash;
-		};
-		7DA185EC28627745ABEC8D04475D1A23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F38960EF263E3E1C8E0B5C03C37B5689;
+			remoteGlobalIDString = 09DD83B7D075842A3A5105AD410BD38A;
 			remoteInfo = BigInt;
-		};
-		906B69A25DC901A2E16CD1D7B745C087 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1AF0AF2A6612DECD39D84C47260295D7;
-			remoteInfo = SipHash;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		006D6867C77E7C7AECB5F461488DBBE1 /* SipHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SipHash-umbrella.h"; sourceTree = "<group>"; };
-		00C24C7F29359742D6BF8B842307B0A2 /* BigInt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BigInt-Info.plist"; sourceTree = "<group>"; };
-		05BD057070E7B75FB4D2FA665A65448B /* SipHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SipHash.xcconfig; sourceTree = "<group>"; };
-		0823C331AD7080575F45336393BF3BD8 /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = sources/Codable.swift; sourceTree = "<group>"; };
-		09D4DE687FCF514EC5E0B5C94BFC576E /* Pods-find-fibonachi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-find-fibonachi-acknowledgements.markdown"; sourceTree = "<group>"; };
-		09E61B76D9934EFA99E2B600C67C9C06 /* BigInt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.xcconfig; sourceTree = "<group>"; };
-		0B067CDB93C194870E578DA927B5E8A9 /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = sources/Addition.swift; sourceTree = "<group>"; };
-		16855516ABB3A4DC5C970E02E8D8551C /* SipHasher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SipHasher.swift; path = SipHash/SipHasher.swift; sourceTree = "<group>"; };
-		192B564741A1B6494DFA4C956B1C1ECB /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = sources/Random.swift; sourceTree = "<group>"; };
-		303FC4535EC0AE1525B27D1C180AA1A8 /* Bitwise Ops.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bitwise Ops.swift"; path = "sources/Bitwise Ops.swift"; sourceTree = "<group>"; };
-		3291E0D1E923B18793DB418893A7B678 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigInt.framework; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC7F2DAD7980411F15D71A3348BEA4C /* Pods-find-fibonachi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-find-fibonachi-frameworks.sh"; sourceTree = "<group>"; };
-		4EBDDDD8FDF1225C9034490CAD13630E /* Pods-find-fibonachi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-find-fibonachi-dummy.m"; sourceTree = "<group>"; };
-		551D954A06A56378DBFC223A140C5519 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = sources/Strideable.swift; sourceTree = "<group>"; };
-		567473F42A638E1C5F5D48A6186F63B6 /* SipHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SipHash-dummy.m"; sourceTree = "<group>"; };
-		5AC1B5504B86394D0D72D138E8F7AB10 /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = sources/BigInt.swift; sourceTree = "<group>"; };
-		5CA16BFE3A45AF4C1F27083F7C06D1E5 /* SipHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SipHash.modulemap; sourceTree = "<group>"; };
-		5D9F5DF79FAC3443B4E132A38204B486 /* SipHashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SipHashable.swift; path = SipHash/SipHashable.swift; sourceTree = "<group>"; };
-		695E5521F1E7FD6F4A29BF3F04CB2A4A /* RandomUInt64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomUInt64.swift; path = SipHash/RandomUInt64.swift; sourceTree = "<group>"; };
-		77EC2079B62E5851D86B09BEF666E6E5 /* String Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String Conversion.swift"; path = "sources/String Conversion.swift"; sourceTree = "<group>"; };
-		7B02DED1E7CB00A1D378CCA9EF6E93A0 /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = sources/Shifts.swift; sourceTree = "<group>"; };
-		81D959B042E8957DB710B2D0922EDF73 /* Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hashable.swift; path = sources/Hashable.swift; sourceTree = "<group>"; };
-		834BDB4C239796BA61EB219AE4EB8DA3 /* Square Root.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Square Root.swift"; path = "sources/Square Root.swift"; sourceTree = "<group>"; };
-		85BE30F7E666366277B3A89D87605411 /* BigInt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-prefix.pch"; sourceTree = "<group>"; };
-		958672FD6B9D95DFF796FF7360DD9075 /* Words and Bits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Words and Bits.swift"; path = "sources/Words and Bits.swift"; sourceTree = "<group>"; };
-		97F9901B7AE0792F47C15A2DB9016085 /* Primitive Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Primitive Types.swift"; path = "SipHash/Primitive Types.swift"; sourceTree = "<group>"; };
-		9CD4ABA47857AB81447BFA962051FEAE /* Pods-find-fibonachi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-find-fibonachi-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E03A99C1D57314305DDC1D29D4B317F /* Data Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data Conversion.swift"; path = "sources/Data Conversion.swift"; sourceTree = "<group>"; };
-		A322A4F42DE98C5D67C669B97633D7BC /* Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplication.swift; path = sources/Multiplication.swift; sourceTree = "<group>"; };
-		A32E6B094FFDF1C1C663500181AD60C0 /* BigInt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-umbrella.h"; sourceTree = "<group>"; };
-		A4EA50E62D41819FE9EE26513CC20608 /* SipHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SipHash-prefix.pch"; sourceTree = "<group>"; };
-		A9CB7A2EE59967B0C539C2DA29B84B9D /* SipHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SipHash.framework; path = SipHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE4125AF46CA8D884AED421C2EB2B67B /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = sources/Exponentiation.swift; sourceTree = "<group>"; };
-		AFD39F4E1AF957546111239FAFD1E71E /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = sources/Comparable.swift; sourceTree = "<group>"; };
-		B942B1B089187186825A4C53851370C9 /* BigInt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt-dummy.m"; sourceTree = "<group>"; };
-		C13F362641DD2ABECCEF3250963A2AC8 /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = sources/BigUInt.swift; sourceTree = "<group>"; };
-		C2969FDFC4F97559A0E9AE002AE62F36 /* Pods-find-fibonachi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-find-fibonachi.debug.xcconfig"; sourceTree = "<group>"; };
-		C528E0BA8F21F4E3FA16A1F05462ACCA /* Pods-find-fibonachi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-find-fibonachi-Info.plist"; sourceTree = "<group>"; };
-		C7BEB0FB2FE33549F92AB9FC2D60A711 /* Integer Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer Conversion.swift"; path = "sources/Integer Conversion.swift"; sourceTree = "<group>"; };
-		CD1274083FA90EA166A6FFC17B22FE25 /* Prime Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Prime Test.swift"; path = "sources/Prime Test.swift"; sourceTree = "<group>"; };
-		D23C77AC0C79813EEFD2CFE815D413C2 /* Pods-find-fibonachi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-find-fibonachi.modulemap"; sourceTree = "<group>"; };
-		D996DEBDA87650E003B50DF02E11BAA0 /* BigInt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BigInt.modulemap; sourceTree = "<group>"; };
-		DF9D890DF372FAE7CFB6BA587E7EC124 /* GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = sources/GCD.swift; sourceTree = "<group>"; };
-		E1307585A362659116906BAEE75FA587 /* Floating Point Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Floating Point Conversion.swift"; path = "sources/Floating Point Conversion.swift"; sourceTree = "<group>"; };
-		EAE1A44D4C7A5AAA9AFB280D58512687 /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = sources/Subtraction.swift; sourceTree = "<group>"; };
-		ECAE2EE30B6A693451F254E04E3BD104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EE7D7E1645330E003FC2F1EA4FA7C3C3 /* Pods-find-fibonachi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-find-fibonachi-umbrella.h"; sourceTree = "<group>"; };
-		F12E522D3201B06A126D6E75CA885DF4 /* SipHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SipHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3D4121B96D7CBC25908BC18225FD0F9 /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Division.swift; path = sources/Division.swift; sourceTree = "<group>"; };
-		FA85F7F90A8FC1112969FCE001385179 /* Pods_find_fibonachi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_find_fibonachi.framework; path = "Pods-find-fibonachi.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEBEDD295C382F663428871F34238D35 /* SipHash-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SipHash-Info.plist"; sourceTree = "<group>"; };
-		FF3BA4226A91666F79CF4F1FC9815938 /* Pods-find-fibonachi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-find-fibonachi.release.xcconfig"; sourceTree = "<group>"; };
+		061A9E516D602774DE077E268A43F172 /* GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = Sources/GCD.swift; sourceTree = "<group>"; };
+		0714A4A181E3E81B16651E21BA05C945 /* Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hashable.swift; path = Sources/Hashable.swift; sourceTree = "<group>"; };
+		07B9037B6E52AF35C93D7AEA5FD3D577 /* BigInt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BigInt-Info.plist"; sourceTree = "<group>"; };
+		09068B73C32ABFB43A719CBB2DF851E6 /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = Sources/Subtraction.swift; sourceTree = "<group>"; };
+		19C604B8E7AD7C33CCD371C2723A43C7 /* Integer Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer Conversion.swift"; path = "Sources/Integer Conversion.swift"; sourceTree = "<group>"; };
+		2D524B0E77F324CFB1D7BEAF6B4DCE83 /* Pods-find-fibonachi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-find-fibonachi-umbrella.h"; sourceTree = "<group>"; };
+		300907C4A38B6252BF658AE5CFC76B88 /* Pods-find-fibonachi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-find-fibonachi.debug.xcconfig"; sourceTree = "<group>"; };
+		31E823CCF06F2616E93B7F748986FF02 /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Division.swift; path = Sources/Division.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32B9BD3BD6D4549E70389EEC56C0A62D /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = Sources/BigInt.swift; sourceTree = "<group>"; };
+		37A1BEFC2958604863F8043A8DA37C39 /* BigInt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BigInt.modulemap; sourceTree = "<group>"; };
+		3AC318F0D3D8DC84A7BFEF7B298AB21B /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = Sources/BigUInt.swift; sourceTree = "<group>"; };
+		3C2C09FDA035937EF86305D3429E3361 /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = Sources/Comparable.swift; sourceTree = "<group>"; };
+		3CCF3A45DCA9086DB4FF23C9911F66F3 /* Pods-find-fibonachi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-find-fibonachi-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D976B3A5210F13B0D064271EDC894C1 /* Floating Point Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Floating Point Conversion.swift"; path = "Sources/Floating Point Conversion.swift"; sourceTree = "<group>"; };
+		42DF0DC73D79BAF24D90308000CC4E1D /* Prime Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Prime Test.swift"; path = "Sources/Prime Test.swift"; sourceTree = "<group>"; };
+		4BD7023763668B8E8F8B35B31ADE67E2 /* Square Root.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Square Root.swift"; path = "Sources/Square Root.swift"; sourceTree = "<group>"; };
+		596A717B1900C9EC63DDD5F449068BEA /* Words and Bits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Words and Bits.swift"; path = "Sources/Words and Bits.swift"; sourceTree = "<group>"; };
+		6087ECF12527B640CC79F526B5799BAB /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = Sources/Addition.swift; sourceTree = "<group>"; };
+		60B48C893B528CB9D75FC0557DE556B8 /* BigInt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-prefix.pch"; sourceTree = "<group>"; };
+		65EC644666F674C5A972AC4F60E91467 /* Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplication.swift; path = Sources/Multiplication.swift; sourceTree = "<group>"; };
+		6F6ACC583132B2436BFED7B300DBF011 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = Sources/Strideable.swift; sourceTree = "<group>"; };
+		74E34699ED0C7AEAACF476DFE4A0D4A4 /* Bitwise Ops.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bitwise Ops.swift"; path = "Sources/Bitwise Ops.swift"; sourceTree = "<group>"; };
+		74FE6E107D1FA4D0DDD33F397A7B7C13 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Sources/Random.swift; sourceTree = "<group>"; };
+		79BD2FA2A1041EEAECB8FE1537110E29 /* BigInt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt-dummy.m"; sourceTree = "<group>"; };
+		7A91E26C51CBFDA6B5D4304F9A5D656A /* BigInt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-umbrella.h"; sourceTree = "<group>"; };
+		82AE26EBA76D3B3CA529618683E8526C /* Pods-find-fibonachi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-find-fibonachi.release.xcconfig"; sourceTree = "<group>"; };
+		8B9BDCCE91E114214721DCC915A2083F /* Pods-find-fibonachi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-find-fibonachi-Info.plist"; sourceTree = "<group>"; };
+		8E34E25893FE59EF967756E94C26F5A7 /* Pods-find-fibonachi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-find-fibonachi-dummy.m"; sourceTree = "<group>"; };
+		91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9604F822D19221D72FF5A59B4044960B /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = Sources/Shifts.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED9E46980D03291BEA4B846E987770E /* String Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String Conversion.swift"; path = "Sources/String Conversion.swift"; sourceTree = "<group>"; };
+		A48A8592AC2FC4281BE13048F523E317 /* Data Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data Conversion.swift"; path = "Sources/Data Conversion.swift"; sourceTree = "<group>"; };
+		A8A12D4CCB2A900AC1F0FD921CAC8BA4 /* Pods-find-fibonachi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-find-fibonachi-frameworks.sh"; sourceTree = "<group>"; };
+		B579003345F030F7B1CEF2256F4FDE24 /* BigInt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.xcconfig; sourceTree = "<group>"; };
+		BD38233D5B9AC5E5B52062B2342545DB /* Pods-find-fibonachi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-find-fibonachi.modulemap"; sourceTree = "<group>"; };
+		CE52BD13D02DDE6063B018F87873EDD5 /* Pods-find-fibonachi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-find-fibonachi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2DB3AEDD24E72B58CA5A2D46500E549 /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = Sources/Exponentiation.swift; sourceTree = "<group>"; };
+		E97D26F28C824EADA06CB70C72AD1E3D /* Pods_find_fibonachi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_find_fibonachi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06C11AF9712A9C9B487CD2DB267E808 /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = Sources/Codable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A747B92E48F42FB63521BB62137BEED /* Frameworks */ = {
+		0A34F68F79250D6756EFC037F89A9335 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				135FEBA19D02E9B63E43159FFB985DC5 /* Foundation.framework in Frameworks */,
+				441B42B593474F0D364D69743844DCFD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65AFBD9FBBFDA3060C552B1AF411C38B /* Frameworks */ = {
+		11311D70953AC99174A763E25F665920 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908DB48E8066721EACB8520E3687D5AA /* Foundation.framework in Frameworks */,
-				9F882C0FB4AA408854857E533402C38F /* SipHash.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94371186B5072EFFB554EA1D7BB458DC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA8738D271DCCDF455DA1E37E71F3AC8 /* Foundation.framework in Frameworks */,
+				DA5830F8370A4DCA48A3EB4EA3DD2E9E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D89F034AD64464134DEAAF66C016473 /* SipHash */ = {
+		12BC6203D670A5ECEC83ABE7AB7C1679 /* BigInt */ = {
 			isa = PBXGroup;
 			children = (
-				97F9901B7AE0792F47C15A2DB9016085 /* Primitive Types.swift */,
-				695E5521F1E7FD6F4A29BF3F04CB2A4A /* RandomUInt64.swift */,
-				5D9F5DF79FAC3443B4E132A38204B486 /* SipHashable.swift */,
-				16855516ABB3A4DC5C970E02E8D8551C /* SipHasher.swift */,
-				FBD43BB2E25F9851327B148C6D570797 /* Support Files */,
+				6087ECF12527B640CC79F526B5799BAB /* Addition.swift */,
+				32B9BD3BD6D4549E70389EEC56C0A62D /* BigInt.swift */,
+				3AC318F0D3D8DC84A7BFEF7B298AB21B /* BigUInt.swift */,
+				74E34699ED0C7AEAACF476DFE4A0D4A4 /* Bitwise Ops.swift */,
+				F06C11AF9712A9C9B487CD2DB267E808 /* Codable.swift */,
+				3C2C09FDA035937EF86305D3429E3361 /* Comparable.swift */,
+				A48A8592AC2FC4281BE13048F523E317 /* Data Conversion.swift */,
+				31E823CCF06F2616E93B7F748986FF02 /* Division.swift */,
+				E2DB3AEDD24E72B58CA5A2D46500E549 /* Exponentiation.swift */,
+				3D976B3A5210F13B0D064271EDC894C1 /* Floating Point Conversion.swift */,
+				061A9E516D602774DE077E268A43F172 /* GCD.swift */,
+				0714A4A181E3E81B16651E21BA05C945 /* Hashable.swift */,
+				19C604B8E7AD7C33CCD371C2723A43C7 /* Integer Conversion.swift */,
+				65EC644666F674C5A972AC4F60E91467 /* Multiplication.swift */,
+				42DF0DC73D79BAF24D90308000CC4E1D /* Prime Test.swift */,
+				74FE6E107D1FA4D0DDD33F397A7B7C13 /* Random.swift */,
+				9604F822D19221D72FF5A59B4044960B /* Shifts.swift */,
+				4BD7023763668B8E8F8B35B31ADE67E2 /* Square Root.swift */,
+				6F6ACC583132B2436BFED7B300DBF011 /* Strideable.swift */,
+				9ED9E46980D03291BEA4B846E987770E /* String Conversion.swift */,
+				09068B73C32ABFB43A719CBB2DF851E6 /* Subtraction.swift */,
+				596A717B1900C9EC63DDD5F449068BEA /* Words and Bits.swift */,
+				DD945084BC258F7999F9B31F9796E9E7 /* Support Files */,
 			);
-			name = SipHash;
-			path = SipHash;
-			sourceTree = "<group>";
-		};
-		8100281B4A7F9C5BD686AB8860D22BE6 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				ECAE2EE30B6A693451F254E04E3BD104 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		810C58555BDE0B00C4F09C3D70980D0E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3291E0D1E923B18793DB418893A7B678 /* BigInt.framework */,
-				FA85F7F90A8FC1112969FCE001385179 /* Pods_find_fibonachi.framework */,
-				A9CB7A2EE59967B0C539C2DA29B84B9D /* SipHash.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8DBA260F30DD77BF38346565B014D2C7 /* BigInt */ = {
-			isa = PBXGroup;
-			children = (
-				0B067CDB93C194870E578DA927B5E8A9 /* Addition.swift */,
-				5AC1B5504B86394D0D72D138E8F7AB10 /* BigInt.swift */,
-				C13F362641DD2ABECCEF3250963A2AC8 /* BigUInt.swift */,
-				303FC4535EC0AE1525B27D1C180AA1A8 /* Bitwise Ops.swift */,
-				0823C331AD7080575F45336393BF3BD8 /* Codable.swift */,
-				AFD39F4E1AF957546111239FAFD1E71E /* Comparable.swift */,
-				9E03A99C1D57314305DDC1D29D4B317F /* Data Conversion.swift */,
-				F3D4121B96D7CBC25908BC18225FD0F9 /* Division.swift */,
-				AE4125AF46CA8D884AED421C2EB2B67B /* Exponentiation.swift */,
-				E1307585A362659116906BAEE75FA587 /* Floating Point Conversion.swift */,
-				DF9D890DF372FAE7CFB6BA587E7EC124 /* GCD.swift */,
-				81D959B042E8957DB710B2D0922EDF73 /* Hashable.swift */,
-				C7BEB0FB2FE33549F92AB9FC2D60A711 /* Integer Conversion.swift */,
-				A322A4F42DE98C5D67C669B97633D7BC /* Multiplication.swift */,
-				CD1274083FA90EA166A6FFC17B22FE25 /* Prime Test.swift */,
-				192B564741A1B6494DFA4C956B1C1ECB /* Random.swift */,
-				7B02DED1E7CB00A1D378CCA9EF6E93A0 /* Shifts.swift */,
-				834BDB4C239796BA61EB219AE4EB8DA3 /* Square Root.swift */,
-				551D954A06A56378DBFC223A140C5519 /* Strideable.swift */,
-				77EC2079B62E5851D86B09BEF666E6E5 /* String Conversion.swift */,
-				EAE1A44D4C7A5AAA9AFB280D58512687 /* Subtraction.swift */,
-				958672FD6B9D95DFF796FF7360DD9075 /* Words and Bits.swift */,
-				BF651666B3704008B07DA0CF4E2133AC /* Support Files */,
-			);
-			name = BigInt;
 			path = BigInt;
 			sourceTree = "<group>";
 		};
-		942130CC85C520B65AB28CC0CFEAC30E /* Frameworks */ = {
+		4852AD1F04C8BE01C9D27A9724172EAB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F12E522D3201B06A126D6E75CA885DF4 /* SipHash.framework */,
-				8100281B4A7F9C5BD686AB8860D22BE6 /* iOS */,
+				12BC6203D670A5ECEC83ABE7AB7C1679 /* BigInt */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		9A7A8497FD051F608E803C672D8A1885 /* Pods-find-fibonachi */ = {
+		6A2620B8B1D4462CE0EFBFCAC6905BAB /* Pods-find-fibonachi */ = {
 			isa = PBXGroup;
 			children = (
-				D23C77AC0C79813EEFD2CFE815D413C2 /* Pods-find-fibonachi.modulemap */,
-				09D4DE687FCF514EC5E0B5C94BFC576E /* Pods-find-fibonachi-acknowledgements.markdown */,
-				9CD4ABA47857AB81447BFA962051FEAE /* Pods-find-fibonachi-acknowledgements.plist */,
-				4EBDDDD8FDF1225C9034490CAD13630E /* Pods-find-fibonachi-dummy.m */,
-				3AC7F2DAD7980411F15D71A3348BEA4C /* Pods-find-fibonachi-frameworks.sh */,
-				C528E0BA8F21F4E3FA16A1F05462ACCA /* Pods-find-fibonachi-Info.plist */,
-				EE7D7E1645330E003FC2F1EA4FA7C3C3 /* Pods-find-fibonachi-umbrella.h */,
-				C2969FDFC4F97559A0E9AE002AE62F36 /* Pods-find-fibonachi.debug.xcconfig */,
-				FF3BA4226A91666F79CF4F1FC9815938 /* Pods-find-fibonachi.release.xcconfig */,
+				BD38233D5B9AC5E5B52062B2342545DB /* Pods-find-fibonachi.modulemap */,
+				CE52BD13D02DDE6063B018F87873EDD5 /* Pods-find-fibonachi-acknowledgements.markdown */,
+				3CCF3A45DCA9086DB4FF23C9911F66F3 /* Pods-find-fibonachi-acknowledgements.plist */,
+				8E34E25893FE59EF967756E94C26F5A7 /* Pods-find-fibonachi-dummy.m */,
+				A8A12D4CCB2A900AC1F0FD921CAC8BA4 /* Pods-find-fibonachi-frameworks.sh */,
+				8B9BDCCE91E114214721DCC915A2083F /* Pods-find-fibonachi-Info.plist */,
+				2D524B0E77F324CFB1D7BEAF6B4DCE83 /* Pods-find-fibonachi-umbrella.h */,
+				300907C4A38B6252BF658AE5CFC76B88 /* Pods-find-fibonachi.debug.xcconfig */,
+				82AE26EBA76D3B3CA529618683E8526C /* Pods-find-fibonachi.release.xcconfig */,
 			);
 			name = "Pods-find-fibonachi";
 			path = "Target Support Files/Pods-find-fibonachi";
 			sourceTree = "<group>";
 		};
-		BF651666B3704008B07DA0CF4E2133AC /* Support Files */ = {
+		9FFC1E79029305EEE9DCF9E7ED8F776D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D996DEBDA87650E003B50DF02E11BAA0 /* BigInt.modulemap */,
-				09E61B76D9934EFA99E2B600C67C9C06 /* BigInt.xcconfig */,
-				B942B1B089187186825A4C53851370C9 /* BigInt-dummy.m */,
-				00C24C7F29359742D6BF8B842307B0A2 /* BigInt-Info.plist */,
-				85BE30F7E666366277B3A89D87605411 /* BigInt-prefix.pch */,
-				A32E6B094FFDF1C1C663500181AD60C0 /* BigInt-umbrella.h */,
+				91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */,
+				E97D26F28C824EADA06CB70C72AD1E3D /* Pods_find_fibonachi.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/BigInt";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				942130CC85C520B65AB28CC0CFEAC30E /* Frameworks */,
-				EF56B89AF01DF6888195224E49E34925 /* Pods */,
-				810C58555BDE0B00C4F09C3D70980D0E /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4852AD1F04C8BE01C9D27A9724172EAB /* Pods */,
+				9FFC1E79029305EEE9DCF9E7ED8F776D /* Products */,
 				DBC0B525FB568CE99646D59A36C8FA39 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DBC0B525FB568CE99646D59A36C8FA39 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A7A8497FD051F608E803C672D8A1885 /* Pods-find-fibonachi */,
+				6A2620B8B1D4462CE0EFBFCAC6905BAB /* Pods-find-fibonachi */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EF56B89AF01DF6888195224E49E34925 /* Pods */ = {
+		DD945084BC258F7999F9B31F9796E9E7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8DBA260F30DD77BF38346565B014D2C7 /* BigInt */,
-				0D89F034AD64464134DEAAF66C016473 /* SipHash */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FBD43BB2E25F9851327B148C6D570797 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5CA16BFE3A45AF4C1F27083F7C06D1E5 /* SipHash.modulemap */,
-				05BD057070E7B75FB4D2FA665A65448B /* SipHash.xcconfig */,
-				567473F42A638E1C5F5D48A6186F63B6 /* SipHash-dummy.m */,
-				FEBEDD295C382F663428871F34238D35 /* SipHash-Info.plist */,
-				A4EA50E62D41819FE9EE26513CC20608 /* SipHash-prefix.pch */,
-				006D6867C77E7C7AECB5F461488DBBE1 /* SipHash-umbrella.h */,
+				37A1BEFC2958604863F8043A8DA37C39 /* BigInt.modulemap */,
+				B579003345F030F7B1CEF2256F4FDE24 /* BigInt.xcconfig */,
+				79BD2FA2A1041EEAECB8FE1537110E29 /* BigInt-dummy.m */,
+				07B9037B6E52AF35C93D7AEA5FD3D577 /* BigInt-Info.plist */,
+				60B48C893B528CB9D75FC0557DE556B8 /* BigInt-prefix.pch */,
+				7A91E26C51CBFDA6B5D4304F9A5D656A /* BigInt-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SipHash";
+			path = "../Target Support Files/BigInt";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1738904DFA435862B7A02C8B389C6FF1 /* Headers */ = {
+		161A02771B21A722138EE16CEDF4ECF9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				569585A743D48C7CEE8A74BEBA8164C1 /* SipHash-umbrella.h in Headers */,
+				7EECE9FCF5E07473E6D0FE80BFCB94C9 /* BigInt-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2469B1485AFE4961A0EF0D8AD3FC2D35 /* Headers */ = {
+		63C694BC52E91102B8F6F3EA959A5157 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF7B5E46E8DBF32B8780FDB25620247 /* BigInt-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73B8EAC2DE5EA2651DD90A6338C694B3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC2A52534A42BE01429F02D21DE19A57 /* Pods-find-fibonachi-umbrella.h in Headers */,
+				CBC4DC998BB536486EB2677E2C658DF8 /* Pods-find-fibonachi-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1AF0AF2A6612DECD39D84C47260295D7 /* SipHash */ = {
+		09DD83B7D075842A3A5105AD410BD38A /* BigInt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73B0903D7A97ACCB393C1302FF4D92EF /* Build configuration list for PBXNativeTarget "SipHash" */;
+			buildConfigurationList = 5104F4CC467A363177DF298548DA476E /* Build configuration list for PBXNativeTarget "BigInt" */;
 			buildPhases = (
-				1738904DFA435862B7A02C8B389C6FF1 /* Headers */,
-				14E146AFCC5ACB2BB0CD19472CD0C7D3 /* Sources */,
-				94371186B5072EFFB554EA1D7BB458DC /* Frameworks */,
-				702F47E7DA56C50C59B3725F116E3EBD /* Resources */,
+				161A02771B21A722138EE16CEDF4ECF9 /* Headers */,
+				AD425074D950826A1AA1323039964E21 /* Sources */,
+				11311D70953AC99174A763E25F665920 /* Frameworks */,
+				5C193E54B44DAEF03EE281A99BB02E30 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = SipHash;
-			productName = SipHash;
-			productReference = A9CB7A2EE59967B0C539C2DA29B84B9D /* SipHash.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D1A4DB9CC6D3F4A50A0868A1B30413A6 /* Pods-find-fibonachi */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8441ADF9481D22D635ED75F2A0E6FD7B /* Build configuration list for PBXNativeTarget "Pods-find-fibonachi" */;
-			buildPhases = (
-				73B8EAC2DE5EA2651DD90A6338C694B3 /* Headers */,
-				3FED5A1A1F028B8CAEB99DB55FA34CB9 /* Sources */,
-				3A747B92E48F42FB63521BB62137BEED /* Frameworks */,
-				2D9684E3043CDCCA406F8F2D08C3CEDF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8E7ACD7D8D17F6007EACD40AFA7A3E49 /* PBXTargetDependency */,
-				FB16D1AA1281F83102670497FE457A12 /* PBXTargetDependency */,
-			);
-			name = "Pods-find-fibonachi";
-			productName = "Pods-find-fibonachi";
-			productReference = FA85F7F90A8FC1112969FCE001385179 /* Pods_find_fibonachi.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F38960EF263E3E1C8E0B5C03C37B5689 /* BigInt */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5EE3ED6F3666044FA2B4916121D34541 /* Build configuration list for PBXNativeTarget "BigInt" */;
-			buildPhases = (
-				2469B1485AFE4961A0EF0D8AD3FC2D35 /* Headers */,
-				8DE4D0A7CB5371799B4AE571F8CFC3DB /* Sources */,
-				65AFBD9FBBFDA3060C552B1AF411C38B /* Frameworks */,
-				1F73535EFE67D8E69126259B7BB920FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5AEE870C1EA199727D1407490D01487D /* PBXTargetDependency */,
 			);
 			name = BigInt;
 			productName = BigInt;
-			productReference = 3291E0D1E923B18793DB418893A7B678 /* BigInt.framework */;
+			productReference = 91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AEE663EFCADD1721B3272D4EB9811BC /* Pods-find-fibonachi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2CBA21271AB29D4F374CE52736BD56 /* Build configuration list for PBXNativeTarget "Pods-find-fibonachi" */;
+			buildPhases = (
+				63C694BC52E91102B8F6F3EA959A5157 /* Headers */,
+				0606A412D1C4D8125D5704954E2E1244 /* Sources */,
+				0A34F68F79250D6756EFC037F89A9335 /* Frameworks */,
+				1F0B8D992A5E4DA5EBCCE10CE15CB216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2C152564E638FDFD8BB05B498A84E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-find-fibonachi";
+			productName = "Pods-find-fibonachi";
+			productReference = E97D26F28C824EADA06CB70C72AD1E3D /* Pods_find_fibonachi.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -391,44 +289,37 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1110;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 810C58555BDE0B00C4F09C3D70980D0E /* Products */;
+			productRefGroup = 9FFC1E79029305EEE9DCF9E7ED8F776D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F38960EF263E3E1C8E0B5C03C37B5689 /* BigInt */,
-				D1A4DB9CC6D3F4A50A0868A1B30413A6 /* Pods-find-fibonachi */,
-				1AF0AF2A6612DECD39D84C47260295D7 /* SipHash */,
+				09DD83B7D075842A3A5105AD410BD38A /* BigInt */,
+				8AEE663EFCADD1721B3272D4EB9811BC /* Pods-find-fibonachi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F73535EFE67D8E69126259B7BB920FA /* Resources */ = {
+		1F0B8D992A5E4DA5EBCCE10CE15CB216 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D9684E3043CDCCA406F8F2D08C3CEDF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		702F47E7DA56C50C59B3725F116E3EBD /* Resources */ = {
+		5C193E54B44DAEF03EE281A99BB02E30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,114 +329,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14E146AFCC5ACB2BB0CD19472CD0C7D3 /* Sources */ = {
+		0606A412D1C4D8125D5704954E2E1244 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA1F206A8437E3208E062B081B89A3C /* Primitive Types.swift in Sources */,
-				773F12D2A85CAB7AD2998B5D56716165 /* RandomUInt64.swift in Sources */,
-				889E890A7CDD926A028443D3C91D97D7 /* SipHash-dummy.m in Sources */,
-				ABBB31787F41EE1EC216C9737139BF0B /* SipHashable.swift in Sources */,
-				1A72E5AF9ACCAAF577D34B51A5C46E80 /* SipHasher.swift in Sources */,
+				B1DB0D7FFF3CFF6346E12280B7EBFC27 /* Pods-find-fibonachi-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FED5A1A1F028B8CAEB99DB55FA34CB9 /* Sources */ = {
+		AD425074D950826A1AA1323039964E21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073C6F0FF4FB519C3FCA6E6AB0954A30 /* Pods-find-fibonachi-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DE4D0A7CB5371799B4AE571F8CFC3DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40B2D8CF63F76512B6AB599D958B79C9 /* Addition.swift in Sources */,
-				4F6AB91A2713CE83136FE6D08F7E01CD /* BigInt-dummy.m in Sources */,
-				3DA1E2DDFB31B4F60E8A32D5EF059417 /* BigInt.swift in Sources */,
-				6A2DA2B1DAC29D3B5246215A907092AD /* BigUInt.swift in Sources */,
-				8FDDCE11A80E76AAC60B7983F4CB20A3 /* Bitwise Ops.swift in Sources */,
-				0569F6CD553CE537CE9A2602C9F97571 /* Codable.swift in Sources */,
-				184E0351503C0AABFCA3FC554F00981B /* Comparable.swift in Sources */,
-				D4AF7245A42AD5DFF183A7CCC0ACC7AF /* Data Conversion.swift in Sources */,
-				09AC4E98C1E712FB660E3B42613C9772 /* Division.swift in Sources */,
-				F1D20863B92EE7E2986F6B3ED8E7381D /* Exponentiation.swift in Sources */,
-				1C6E5C3AC12E19FE5C4D96C0074DC977 /* Floating Point Conversion.swift in Sources */,
-				CD8D7E2797FFE86D96868AAE2B0E004D /* GCD.swift in Sources */,
-				CB6C63980712EC1032E50E557D2FF691 /* Hashable.swift in Sources */,
-				6797F663F4A2386E015E0D6456BF3797 /* Integer Conversion.swift in Sources */,
-				B963546829EE9D61732A33C15B65E2C2 /* Multiplication.swift in Sources */,
-				3E54485FAC4FE6B309558F4447B7D2A7 /* Prime Test.swift in Sources */,
-				7CACDD00B9AE9FD476298AFDEBABE666 /* Random.swift in Sources */,
-				AA4B4BABA92F3AA05297E6648198B763 /* Shifts.swift in Sources */,
-				37059B6A52DE92A375A79BDA2916B957 /* Square Root.swift in Sources */,
-				DF4B43F9C90F35A58B925E4AB78B8E31 /* Strideable.swift in Sources */,
-				7D17202A290862DDDB5985DFF12C2204 /* String Conversion.swift in Sources */,
-				1E95853E7C05F7A52717E661EF576FDA /* Subtraction.swift in Sources */,
-				778E3D99050C62272C31CB7BDE81E05F /* Words and Bits.swift in Sources */,
+				6002AD14210CBE9C34EB848031CFD7E6 /* Addition.swift in Sources */,
+				FFF7E224F5F3094210837EC8C7FE4960 /* BigInt-dummy.m in Sources */,
+				5E2574B7162EED00A81237F56CDC0BE4 /* BigInt.swift in Sources */,
+				AC7DBF3AD44B3E7644068E6F09F9EBF2 /* BigUInt.swift in Sources */,
+				04C4B5D00750E2E4DFD4C4C7CC47283A /* Bitwise Ops.swift in Sources */,
+				DBE9A6D9CB82D8605F4C25B9426B1557 /* Codable.swift in Sources */,
+				16F71F20D31B7EEC6A60DB14135AB7A9 /* Comparable.swift in Sources */,
+				39137B0D7B8FB5BF554BDE012BD85061 /* Data Conversion.swift in Sources */,
+				3B9A2601095A9A72843D76CA44B37782 /* Division.swift in Sources */,
+				0DF63A4C8FA0E53FB630F5B5429FF066 /* Exponentiation.swift in Sources */,
+				2228B8549F0F5445D1B2D346E12A20CD /* Floating Point Conversion.swift in Sources */,
+				F13925E2206A7647AC326ECFA6ED2856 /* GCD.swift in Sources */,
+				4A8B21596204A43258F4EC69A7AEC66E /* Hashable.swift in Sources */,
+				E0B84D75D0F7E7EA2E905C05774CC361 /* Integer Conversion.swift in Sources */,
+				D48A4410A7C8CE6B6A0787A0F4999DE5 /* Multiplication.swift in Sources */,
+				E93CF504980B3D653BB4530E7F98E9F6 /* Prime Test.swift in Sources */,
+				AC4E061C6A2D21210122B471D8BCC81E /* Random.swift in Sources */,
+				BE29AFA73FEDAFA471F35F8AB1C3EA99 /* Shifts.swift in Sources */,
+				4362503059C68DFCDCB8621F4FD9E325 /* Square Root.swift in Sources */,
+				99F35D362CDAA3F01D59E05FAB02907D /* Strideable.swift in Sources */,
+				E8ABBB87CFEBE721FC2D14B71A719BC2 /* String Conversion.swift in Sources */,
+				BAA052C302D45F8DAB72606E997CAD69 /* Subtraction.swift in Sources */,
+				8599E23B2946C6F3F6DA3D63EC82C4A3 /* Words and Bits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5AEE870C1EA199727D1407490D01487D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SipHash;
-			target = 1AF0AF2A6612DECD39D84C47260295D7 /* SipHash */;
-			targetProxy = 906B69A25DC901A2E16CD1D7B745C087 /* PBXContainerItemProxy */;
-		};
-		8E7ACD7D8D17F6007EACD40AFA7A3E49 /* PBXTargetDependency */ = {
+		DC2C152564E638FDFD8BB05B498A84E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BigInt;
-			target = F38960EF263E3E1C8E0B5C03C37B5689 /* BigInt */;
-			targetProxy = 7DA185EC28627745ABEC8D04475D1A23 /* PBXContainerItemProxy */;
-		};
-		FB16D1AA1281F83102670497FE457A12 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SipHash;
-			target = 1AF0AF2A6612DECD39D84C47260295D7 /* SipHash */;
-			targetProxy = 5C9D4C91F10CF832666D975496DC1589 /* PBXContainerItemProxy */;
+			target = 09DD83B7D075842A3A5105AD410BD38A /* BigInt */;
+			targetProxy = 85601CE935627FAFD09275D0D1363BBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3BEE380CA4D18AAE54781809D94D5F39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09E61B76D9934EFA99E2B600C67C9C06 /* BigInt.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BigInt/BigInt-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
-				PRODUCT_MODULE_NAME = BigInt;
-				PRODUCT_NAME = BigInt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4093433A309EFE160336AC736594AB22 /* Debug */ = {
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -604,17 +438,48 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		60B4655237762C85545C1A8E9A654B63 /* Debug */ = {
+		634F1A31401DDD88ED0B4B9B24D15C64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2969FDFC4F97559A0E9AE002AE62F36 /* Pods-find-fibonachi.debug.xcconfig */;
+			baseConfigurationReference = B579003345F030F7B1CEF2256F4FDE24 /* BigInt.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigInt/BigInt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
+				PRODUCT_MODULE_NAME = BigInt;
+				PRODUCT_NAME = BigInt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BB3AD4258FE5D7E9B06925E192B424C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300907C4A38B6252BF658AE5CFC76B88 /* Pods-find-fibonachi.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -644,11 +509,12 @@
 			};
 			name = Debug;
 		};
-		6B758C593E25C0D2C0D36E36B04E2960 /* Debug */ = {
+		A80F4F4F3EDC9A52D4103314E1568371 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09E61B76D9934EFA99E2B600C67C9C06 /* BigInt.xcconfig */;
+			baseConfigurationReference = 82AE26EBA76D3B3CA529618683E8526C /* Pods-find-fibonachi.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -658,25 +524,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BigInt/BigInt-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-find-fibonachi/Pods-find-fibonachi-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
-				PRODUCT_MODULE_NAME = BigInt;
-				PRODUCT_NAME = BigInt;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-find-fibonachi/Pods-find-fibonachi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		924D56B1D59CD3049300EAEEA256114E /* Release */ = {
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -729,20 +597,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		9682E53C9F51E63983E9FC2C010ACCE3 /* Release */ = {
+		F602AC3EC458E28CD654FE19C247F2A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF3BA4226A91666F79CF4F1FC9815938 /* Pods-find-fibonachi.release.xcconfig */;
+			baseConfigurationReference = B579003345F030F7B1CEF2256F4FDE24 /* BigInt.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -752,90 +616,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-find-fibonachi/Pods-find-fibonachi-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-find-fibonachi/Pods-find-fibonachi.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D24007697098E4EA260D57C388F89512 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05BD057070E7B75FB4D2FA665A65448B /* SipHash.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SipHash/SipHash-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SipHash/SipHash-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigInt/BigInt-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SipHash/SipHash.modulemap";
-				PRODUCT_MODULE_NAME = SipHash;
-				PRODUCT_NAME = SipHash;
+				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
+				PRODUCT_MODULE_NAME = BigInt;
+				PRODUCT_NAME = BigInt;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		D96D8FB5C7FEF4C511F67B56E2F1D844 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05BD057070E7B75FB4D2FA665A65448B /* SipHash.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SipHash/SipHash-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SipHash/SipHash-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SipHash/SipHash.modulemap";
-				PRODUCT_MODULE_NAME = SipHash;
-				PRODUCT_NAME = SipHash;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -843,35 +640,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4093433A309EFE160336AC736594AB22 /* Debug */,
-				924D56B1D59CD3049300EAEEA256114E /* Release */,
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EE3ED6F3666044FA2B4916121D34541 /* Build configuration list for PBXNativeTarget "BigInt" */ = {
+		5104F4CC467A363177DF298548DA476E /* Build configuration list for PBXNativeTarget "BigInt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B758C593E25C0D2C0D36E36B04E2960 /* Debug */,
-				3BEE380CA4D18AAE54781809D94D5F39 /* Release */,
+				F602AC3EC458E28CD654FE19C247F2A8 /* Debug */,
+				634F1A31401DDD88ED0B4B9B24D15C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73B0903D7A97ACCB393C1302FF4D92EF /* Build configuration list for PBXNativeTarget "SipHash" */ = {
+		8F2CBA21271AB29D4F374CE52736BD56 /* Build configuration list for PBXNativeTarget "Pods-find-fibonachi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D24007697098E4EA260D57C388F89512 /* Debug */,
-				D96D8FB5C7FEF4C511F67B56E2F1D844 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8441ADF9481D22D635ED75F2A0E6FD7B /* Build configuration list for PBXNativeTarget "Pods-find-fibonachi" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60B4655237762C85545C1A8E9A654B63 /* Debug */,
-				9682E53C9F51E63983E9FC2C010ACCE3 /* Release */,
+				9BB3AD4258FE5D7E9B06925E192B424C /* Debug */,
+				A80F4F4F3EDC9A52D4103314E1568371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
