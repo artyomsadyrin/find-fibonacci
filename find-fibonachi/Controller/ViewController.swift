@@ -15,6 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var fibonachiTable: UITableView!
     @IBOutlet weak var fiboSearchBar: UISearchBar!
     
+    @IBOutlet weak var operationCompleteActivityIndicatorView: UIActivityIndicatorView!
     private var filteredFibonachi = [String]()
     private var numbers = [String]()
     private var N = 19
@@ -42,8 +43,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
+    private func startLoadingActivityIndicator() {
+        operationCompleteActivityIndicatorView.isHidden = false
+        operationCompleteActivityIndicatorView.startAnimating()
+    }
+    
+    private func stopLoadingActivityIndicator() {
+        operationCompleteActivityIndicatorView.isHidden = true
+        operationCompleteActivityIndicatorView.stopAnimating()
+    }
+    
     func refreshFibonachiTable() {
         filteredFibonachi = numbers
+        stopLoadingActivityIndicator()
         fibonachiTable.reloadData()
     }
     
@@ -54,7 +66,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         if let positionOfNumber = Int(searchText) {
             if positionOfNumber > 0 {
-                filteredFibonachi = [FibonachiCalculation.getFibonachiNumber(positionOfNumber)]
+                DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+                    DispatchQueue.main.async {
+                        self?.startLoadingActivityIndicator()
+                    }
+                    self?.filteredFibonachi = [FibonachiCalculation.getFibonachiNumber(positionOfNumber)]
+                    DispatchQueue.main.async {
+                        self?.stopLoadingActivityIndicator()
+                        self?.fibonachiTable.reloadData()
+                    }
+                }
             }
             else {
                 filteredFibonachi = [""]
@@ -63,15 +84,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         else {
             filteredFibonachi = [""]
         }
-        
-        fibonachiTable.reloadData()
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let lastItemPosition = numbers.count - 1
         if indexPath.row == lastItemPosition {
-            numbers += FibonachiCalculation.createFibonachiArray(firstIndex: lastItemPosition + 1, lastIndex: lastItemPosition + 21)
-            refreshFibonachiTable()
+            DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+                DispatchQueue.main.async {
+                    self?.startLoadingActivityIndicator()
+                }
+                self?.numbers += FibonachiCalculation.createFibonachiArray(firstIndex: lastItemPosition + 1, lastIndex: lastItemPosition + 21)
+                DispatchQueue.main.async {
+                    self?.refreshFibonachiTable()
+
+                }
+            }
         }
     }
     
