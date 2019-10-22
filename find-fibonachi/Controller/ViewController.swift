@@ -25,6 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         fibonachiTable.dataSource = self
         fibonachiTable.delegate = self
         fiboSearchBar.delegate = self
+        operationCompleteActivityIndicatorView.isHidden = true
         numbers = FibonachiCalculation.createFibonachiArray(firstIndex: 0, lastIndex: 19)
         filteredFibonachi = numbers
     }
